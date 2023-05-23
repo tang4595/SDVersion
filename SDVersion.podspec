@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
   s.watchos.deployment_target = '2.0'
   s.tvos.deployment_target = '9.0'
 
-  s.ios.source_files = "Library/SDVersion/SDiOSVersion/*.{h,m}"
-  s.osx.source_files = "Library/SDVersion/SDMacVersion/*.{h,m}"
-  s.watchos.source_files = "Library/SDVersion/SDwatchOSVersion/*.{h,m}"
-  s.tvos.source_files = "Library/SDVersion/SDtvOSVersion/*.{h,m}"
-  s.source_files  = "Library/SDVersion/*.{h,m}"
+  s.ios.source_files = "Library/SDiOSVersion/*.{h,m}"
+  s.osx.source_files = "Library/SDMacVersion/*.{h,m}"
+  s.watchos.source_files = "Library/SDwatchOSVersion/*.{h,m}"
+  s.tvos.source_files = "Library/SDtvOSVersion/*.{h,m}"
+  s.source_files  = "Library/*.{h,m}"
 
 end
 
